@@ -1,0 +1,85 @@
+body {
+    background-color: #1B204E;
+
+}
+
+.blue-700.list-group-item.active{
+    padding: 0;
+    border-color: #8888884f;
+}
+
+.blue-700.list-group-item.active,
+.blue-700.container{
+    background-color: #101038;
+}
+
+main #main-list{
+    background-color: #101038;
+    overflow-y: auto;
+    max-height: 580px;
+}
+
+main .list-group a{
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+.blue-700.container{
+    padding: 2.0rem;
+    border-radius: 0.8rem;
+}
+
+.blue-700.container h1{
+    color: #B700FC;
+}
+
+.blue-700.container label{
+    color: white;
+}
+
+.blue-700.container h1{
+    margin-bottom: 1.4rem;
+}
+
+.blue-700.container .col{
+    margin-bottom: 1.0rem;
+}
+
+.blue-700.container .form-control{
+    border-radius: 0.6rem;
+    background-color: #101038;
+    border-color: #8888884f;
+    color: #ccc;
+}
+
+.blue-700.container .btn[type='submit'],
+.blue-700.container a.btn{
+    background-color: #B700FC;
+    border-color: #B700FC;
+    padding: .6rem 2rem;
+}
+
+.blue-700.container .btn.btn-secondary{
+    padding: .6rem 2rem;
+}
+
+.blue-700.container .btn.btn-secondary[data-bs-target="#deleteSpaceShip"] {
+    margin-right: 1rem;
+}
+
+form .row + .row{
+    margin-top: .2rem;
+}
+
+.btn-secondary{
+    background-color: #1B204E;
+    border-color: #1B204E;
+}
+
+#list a.btn{
+    margin-top: 2rem;
+}

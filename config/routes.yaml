@@ -1,0 +1,55 @@
+controllers:
+  resource: '../src/Controller/'
+  type: annotation
+
+index:
+  path: /
+  controller: App\Controller\DefaultController::index
+
+# Rota para a página de erro "not found"
+notfound:
+    path: /not-found
+    controller: App\Controller\SpaceShipsController::notFound
+    methods: ['GET']
+
+# Rota para a listagem das espaçonaves
+spaceship_list:
+    path: /space-ships
+    controller: App\Controller\SpaceShipsController::list
+    methods: ['GET']
+
+# Rota para criar uma nova espaçonave
+spaceship_view_create:
+    path: /space-ships/new
+    controller: App\Controller\SpaceShipsController::new
+    methods: ['GET']
+
+# Rota para deletar uma espaçonave
+spaceship_delete:
+    path: /space-ships/delete/{id}
+    controller: App\Controller\SpaceShipsController::delete
+    methods: ['POST']
+    requirements:
+        id: '\d+'
+
+# Rota para visualizar os detalhes de uma espaçonave
+spaceship_details:
+    path: /space-ships/{id}
+    controller: App\Controller\SpaceShipsController::details
+    methods: ['GET']
+    requirements:
+        id: '\d+'
+
+# Rota para atualizar uma espaçonave
+spaceship_update:
+    path: /space-ships/{id}
+    controller: App\Controller\SpaceShipsController::update
+    methods: ['POST']
+    requirements:
+        id: '\d+'
+
+# Rota para criar uma espaçonave
+spaceship_create:
+    path: /space-ships
+    controller: App\Controller\SpaceShipsController::create
+    methods: ['POST']
