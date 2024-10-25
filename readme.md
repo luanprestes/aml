@@ -96,3 +96,7 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 - **/space-ships/{id}**: Detalhes de uma espaçonave específica.
 - **/space-ships/{id}/edit**: Edição de uma espaçonave.
 - **/space-ships/delete/{id}**: Remoção de uma espaçonave.
+
+## Demonstração do Projeto
+
+[![Assista à Demonstração](https://img.youtube.com/vi/hP2Ww74jcl8/maxresdefault.jpg)](https://www.youtube.com/watch?v=hP2Ww74jcl8)
